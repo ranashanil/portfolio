@@ -14,7 +14,7 @@ body{
 header {
   position: relative;
   z-index: 999;
-  overflow: hidden;
+
 }
 
 
@@ -72,6 +72,7 @@ header {
   overflow: hidden;
   margin-bottom: 0px;
   border-bottom: 1px solid #161922;
+  overflow: hidden;
 }
 .home_container{
   width: 100%;
@@ -163,6 +164,7 @@ header {
   height: 100vh;
   background-color: #161922;
   margin-bottom: 0px;
+  overflow: hidden;
 }
 .image_about{
   height: 480px;
@@ -302,6 +304,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;  
+  overflow: hidden;
 }
 .contact_heading{
   font-weight: 600;
