@@ -789,6 +789,7 @@ footer span{
   }
   .portfolio_img{
     width: 100%;
+    border-radius: 10px;
   }
   .user-interface{
     margin: 20px 0px;
