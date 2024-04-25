@@ -285,10 +285,22 @@ header {
   color: #FECC72;
 }
 .portfolio_img{
-  width: 100%;
+  width: 100%; 
+  height: 100%;
 }
 .user-interface{
   margin: 20px 0px;
+}
+.portfolio .image-div{
+  overflow: hidden;
+  border-radius: 5px; 
+  height: 100%;
+}
+.grow-on-hover{
+  transition: transform 0.3s ease;
+}
+.grow-on-hover:hover{
+  transform: scale(1.1);
 }
 .portfolioContainer{
   padding: 50px 0px;
